@@ -1,0 +1,126 @@
+@font-face {
+    font-family: Japonesa;
+    src: url(../font/Moyko.ttf);
+}
+@font-face {
+    font-family: article;
+    src: url(../font/Earth\ 2073.ttf);
+}
+@font-face {
+    font-family: Open-sans;
+    src: url(../font/OpenSans-Regular.ttf);
+}
+header{
+    font-family: Japonesa !important;
+
+}
+h1{
+    font-size: 50px !important;
+    
+}
+body{
+    background-color: black !important;
+}
+.parallax {
+    /* The image used */
+    background-image: url("../images/f79.png");
+  
+    /* Set a specific height */
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  nav{
+    position: fixed !important;
+    color: #FFB8B8 !important;
+    z-index: 9999 !important;
+    background: rgba(0, 0, 0, 0.3) !important;
+    width: 100% !important;
+    position: fixed !important;
+    top: 0 !important;
+   
+  }
+  #degrade{
+    background: linear-gradient(10deg, #440303 40%, #9a0000 60%);
+border-top: black 2px solid; 
+border: white solid 1px;
+}
+button{
+    color: white !important;
+}
+a{
+    color: white !important;
+    
+}
+  a:hover{
+    color: #cd0100 !important;
+}
+button:hover{
+    color: #cd0100 !important;
+}
+
+  h1{
+    -webkit-text-stroke: 2px white !important;
+      color: red;
+      font-size: 100px !important;
+      
+  }
+  #devwebj{
+    -webkit-text-stroke: 1px white !important;
+      color: red;
+      font-size: 60px !important;
+  }
+
+    
+  
+  article h3{
+      font-family: Japonesa;
+  }
+  main{
+      font-family:article;
+      margin-bottom: 50px;
+  }
+  h3{
+      font-family: Japonesa !important;
+  }
+  h4{
+      font-family: Japonesa;
+  }
+  .photo{
+      margin: auto;
+      display: block;
+      margin-top: 60px;
+      
+  }
+  form{
+    width: 60%;
+    margin: auto
+    ;
+  }
+   
+  #btnn{
+   
+  }
+  li{
+    list-style-type: none;
+  }
+  #competences #degrade{
+    height: 180px;
+  }
+  
+  
+  @media screen and (max-width:768px) {
+    h1{
+      font-size: 70px !important;
+    }
+    h2{
+      font-size: 50px !important;
+    }
+    .photo{
+      max-width: 100%;
+    }
+    
+  }
