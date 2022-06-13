@@ -101,15 +101,19 @@ button:hover{
     ;
   }
    
-  #btnn{
-   
-  }
+  
   li{
     list-style-type: none;
   }
   #competences #degrade{
     height: 180px;
   }
+  .btnLM{
+    background-color: black;
+    color: white;
+    border-radius: 30%;
+  }
+
   
   
   @media screen and (max-width:768px) {
